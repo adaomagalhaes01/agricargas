@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import AgriRoute from './components/AgriRoute';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -20,6 +21,9 @@ function App() {
         </div>
         <div id="servicos">
           <Services />
+        </div>
+        <div id="agriroute">
+          <AgriRoute />
         </div>
         <div id="galeria">
           <Gallery />
