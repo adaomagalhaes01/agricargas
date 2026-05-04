@@ -49,7 +49,7 @@ const stats = [
     },
     {
         icon: MapPin,
-        value: 18,
+        value: 21,
         suffix: '',
         label: 'Províncias',
         description: 'Cobertura em Angola',
