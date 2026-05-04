@@ -1,24 +1,34 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/Features';
-import Showcase from './components/Showcase';
-import HowItWorks from './components/HowItWorks';
-import Stats from './components/Stats';
-import Testimonials from './components/Testimonials';
-import DownloadCTA from './components/DownloadCTA';
+import About from './components/About';
+import Services from './components/Services';
+import Gallery from './components/Gallery';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="font-sans bg-white text-gray-800 antialiased overflow-x-hidden">
       <Navbar />
-      <Hero />
-      <Features />
-      <Showcase />
-      <HowItWorks />
-      <Stats />
-      <Testimonials />
-      <DownloadCTA />
+
+      <main>
+        <div id="inicio">
+          <Hero />
+        </div>
+        <div id="sobre">
+          <About />
+        </div>
+        <div id="servicos">
+          <Services />
+        </div>
+        <div id="galeria">
+          <Gallery />
+        </div>
+        <div id="contacto">
+          <Contact />
+        </div>
+      </main>
+
       <Footer />
     </div>
   );
